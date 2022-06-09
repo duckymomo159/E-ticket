@@ -1,0 +1,281 @@
+html {
+	cursor:url(../img/mouse.ico), auto;
+}
+
+body {
+	font-family:"Comic Sans MS", cursive;
+	background-image:url(../img/background.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	overflow:hidden;
+}
+
+.topdiv {
+	float:left;
+	width:100%;
+	height:7%;
+}
+
+.bottomdiv {
+	float:left;
+	width:100%;
+	height:7%;
+}
+
+.bodydiv {
+	float:left;
+	margin-left:15%;
+	padding-top:7%;
+	padding-left:6%;
+	padding-right:4%;
+	width:60%;
+	height:86%;
+	background-color:rgba(255,255,255,0.5);
+	border-radius:0.7vw;
+	border:thick ridge #FFF;
+	box-shadow:0.3vw 0.3vw 0.3vw rgba(102,102,102,0.7);
+}
+
+.rabbit {
+	position:fixed;
+	bottom:0%;
+	left:0%;
+	width:19.3vw;
+	height:18.5vw;
+}
+
+.woodsign {
+	position:fixed;
+	top:0%;
+	left:35%;
+	width:20vw;
+	height:7vw;
+}
+
+.infofooter {
+	position:fixed;
+	bottom:1.5%;
+	left:33%;
+	font-size:1vw;
+	color:#FFF;
+}
+
+.btncheckmodules {
+	outline:none;
+	position:fixed;
+	top:13%;
+	right:4%;
+	width:17vw;
+	height:4vw;
+	border:thick solid #FFF;
+	border-radius:0.5vw;
+	background:transparent;
+	box-shadow:0.1vw 0.1vw 0.1vw rgba(102,102,102,1);
+	color:#FFF;
+	font-size:1.3vw;
+	font-weight:bolder;
+}
+
+.btncheckmodules:hover {
+	background-color:rgba(255,255,255,0.3);
+}
+
+.btncheckmodules:active {
+	background-color:rgba(255,255,255,1);
+	color:#000;
+}
+
+.groundsign {
+	position:fixed;
+	bottom:0%;
+	right:0%;
+	width:28vw;
+	height:28vw;
+}
+
+.boardtitle {
+	position:fixed;
+	top:4.7%;
+	left:35%;
+	width:20vw;
+	height:4.8vw;
+	font-size:2vw;
+	color:#000;
+	font-weight:bolder;
+	line-height:2.2;
+	text-align:center;
+}
+
+.btnCreateEvent {
+	position:fixed;
+	bottom:37%;
+	right:6.7%;
+	width:16vw;
+	height:4vw;
+	transform:rotate(1deg);
+	background:transparent;
+	color:#000;
+	font-size:1.5vw;
+	border:thick #000 solid;
+	border-radius:0.7vw;
+}
+
+.btnCreateEvent:focus {
+	outline:none;
+}
+
+.btnCreateEvent:hover {
+	background:rgba(255,255,255,0.5);
+	color:#F90;
+	border-color:#F90;
+}
+
+.btnCreateEvent:active {
+	color:#FFF;
+}
+
+.btnBuyTicket {
+	position:fixed;
+	bottom:24.5%;
+	right:6.7%;
+	width:16vw;
+	height:4vw;
+	transform:rotate(1deg);
+	background:transparent;
+	color:#000;
+	font-size:1.5vw;
+	border:thick #000 solid;
+	border-radius:0.7vw;
+}
+
+.btnBuyTicket:focus {
+	outline:none;
+}
+
+.btnBuyTicket:hover {
+	background:rgba(255,255,255,0.5);
+	color:#F90;
+	border-color:#F90;
+}
+
+.btnBuyTicket:active {
+	color:#FFF;
+}
+
+.volicon {
+	position:fixed;
+	width:3vw;
+	height:3vw;
+	bottom:12.5%;
+	left:14.5%;
+	transform:rotate(-3deg);
+}
+
+.labletext {
+	float:left;
+	width:20%;
+	height:7%;
+	padding-left:2%;
+	font-size:1.3vw;
+	font-weight:bolder;
+	line-height:1.5;
+	margin-bottom:1vw;
+}
+
+.inputtext {
+	float:left;
+	width:25%;
+	height:7%;
+	margin-bottom:1vw;
+}
+
+.inputtext > input {
+	width:100%;
+	height:100%;
+	border-radius:0.5vw;
+	border:none;
+	text-align:center;
+	font-size:1vw;
+}
+
+.inputtext > input:focus {
+	outline:none;
+}
+
+.submitCreateEvent {
+	float:left;
+	width:43%;
+	height:7%;
+	line-height:1;
+	font-size:1vw;
+	line-height:1.5;
+	margin-left:2%;
+	margin-bottom:1vw;
+	border-radius:0.5vw;
+	background:rgba(255,0,0,0.8);
+	border:medium solid #FFF;
+	color:#FFF;
+}
+
+.submitCreateEvent:hover {
+	background:#9F0;
+}
+
+.submitCreateEvent:focus {
+	outline:none;
+}
+
+#resultdivEvent {
+	float:left;
+	width:100%;
+	height:55%;
+}
+
+#resultdivEvent #resultdivEvent1 {
+	float:left;
+	width:40%;
+	height:100%;
+	padding-left:10%;
+}
+
+#resultdivEvent #resultdivEvent2 {
+	float:left;
+	width:60%;
+	height:100%;
+}
+
+#resultdivEvent2 #resultdivEvent21 {
+	float:left;
+	width:100%;
+	height:50%;
+}
+
+#resultdivEvent2 #resultdivEvent22 {
+	float:left;
+	width:100%;
+	height:50%;
+	padding-left:30%;
+}
+
+#hash {
+	border-radius:0.5vw;
+	border:none;
+	font-size:1vw;
+	width:60%;
+	height:30%;
+	margin-top:15%;
+	font-size:2vw;
+}
+
+#hash:focus {
+	outline:none;
+}
+
+.event {
+	width:100%;
+	height:100%;
+	border-radius:0.5vw;
+	border:none;
+	text-align:center;
+	font-size:1vw;
+}
